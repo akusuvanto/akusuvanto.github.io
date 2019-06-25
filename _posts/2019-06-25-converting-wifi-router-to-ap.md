@@ -1,10 +1,10 @@
 ---
-layout: single
-title:  "Converting a Wifi router to an AP"
-date:   2019-06-25 15:57:00 +0300
+layout:     single
+title:      "Converting a Wifi router to an AP"
+date:       2019-06-25 15:57:00 +0300
+permalink:  /2019/06/converting-a-wifi-router-to-an-ap
 categories:
-  - networking
-  - wireless
+  - Networking
 tags:
   - Wireless
   - OpenWRT
