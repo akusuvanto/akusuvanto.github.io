@@ -10,6 +10,7 @@ minimal_mistakes_skin   : "dark"
 # Site settings and variables
 locale                  : "en-US"
 title                   : "Aku's Lab"
+description             : "Exploring the world of IT"
 name                    : "Aku Suvanto"
 url                     : "https://akusuvanto.github.io"
 repository              : "akusuvanto/akusuvanto.github.io"
@@ -22,13 +23,13 @@ author:
   location              : "Tampere, Finland"
   email                 : #
   links:
-    - label: "github"
+    - label: "Github"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/akusuvanto"
 
 footer:
   links:
-    - label: "github"
+    - label: "Github"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/akusuvanto"
 
