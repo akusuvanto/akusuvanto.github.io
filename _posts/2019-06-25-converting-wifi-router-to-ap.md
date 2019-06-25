@@ -2,7 +2,12 @@
 layout: single
 title:  "Converting a Wifi router to an AP"
 date:   2019-06-25 15:57:00 +0300
-categories: networking wireless
+categories:
+  - networking
+  - wireless
+tags:
+  - Wireless
+  - OpenWRT
 ---
 
 For the longest time the wireless at my place has been lackluster at best. Even
@@ -98,14 +103,14 @@ As a note, for some reason the command
 
     /etc/init.d/network reload
 
-does not work on this router, so instead I rebooted the router, and voilà! We
-now have a configured router ready to be installed.
+does not work on this router and results in the system hanging, so instead I
+just rebooted the router, and voilà! We now have a configured router ready to
+be installed.
 
 # Hooking up the AP and testing with iPerf
 
 For change, this part could not have be simpler. I plugged Lan1 of the TG799VAC
 in to my own Mikrotik RB3011 router and let the DHCP server handle the clients.
-
 For performance testing I used the standard iPerf package. I downloaded version
 3.1.3 windows binaries and started a server in PowerShell with the command
 
