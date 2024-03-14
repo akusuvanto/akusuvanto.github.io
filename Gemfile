@@ -9,9 +9,11 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-gem "minimal-mistakes-jekyll"
-# gem 'jekyll-include-cache'
+# gem "minimal-mistakes-jekyll"
+gem 'jekyll-include-cache', group: :jekyll_plugins
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 gem "github-pages", group: :jekyll_plugins
+
+gem "webrick", "~> 1.8"
